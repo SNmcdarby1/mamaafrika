@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Yrsa&display=swap|100,200,300,400,500,600,700');
+
+/*-----------------------------------------------------------------media*/
+
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+
+ }
+/*----------------------------------------------------------colors*/
+
+
+
+
+ /*----------------------------------------------------jumbottron*/
+
+
+
+
+/*----------------------------------------------------header*/
+h1,h2,h3,h4{{margin: o;
+      color: black ;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.general-sub {
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    color: #382d2d
+}
+
+.inline-block{
+ display: inline-block;
+}
+.row-table{
+ display: table;
+}
+.section-column{
+    display: table-cell;
+    padding: 0, 30px;
+    float: none;
+} 
+
+/*----------------------------------------------------body*/
+#jumbotron:hover{
+     background-color: #d1c5cc;
+}
+
+.list-inline-item:not(:last-child){
+    margin: 0;
+}
+.container{
+    font-size: 0;
+}
+.images{
+    max-block-size: 30%
+}
+#nav{
+    margin: 0;
+}
+
+#nav lI{
+    font-size: 14px;
+    padding: 0;
+}
+.tab {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.tab a {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(247, 228, 228);
+    height: 120px;
+}
+.tab a i {
+    padding-top: 22px;
+    display: block;
+    color: #f0f0ee;
+    font-size: 26px;
+}
+.tab span{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+
+/*----------------------------------------------------form*/
+
+
+
+
+/*----------------------------------------------------images*/
+.mama{
+    margin-right: 1rem;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+  
+}
+#afrika{
+    margin-right: 1rem;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#wallart{
+    margin-right: 1rem;
+    background-position:  left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+}
+/*---------------------------------------------------hover*/
+
+
+
+
+
+/*----------------------------------------------------footer*/
+.footer {
+    background-color: #215627
+    color: #0ee7cab0;
+    min-height: 120px;
+    margin: 0;
+}/*-----------------------------------------video*/
+.video
+
+/*-------------------------------------------------------social*/
+.social-links {
+    padding-bottom: 15px;
+}
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #774545;
+    background: #b4aeae;
+    transition: all 0.35s ease-in-out; 
+    -moz-transition: all 0.35s ease-in-out; 
+    -webkit-transition: all 0.35s ease-in-out; 
+    -o-transition: all 0.35s ease-in-out; 
+}
+.social-links li a i:hover{
+    background: #e84610;
+}
+#footer-details {
+    padding: 20px;
+}
+.footer-details{
+    padding: 20px;
+}
