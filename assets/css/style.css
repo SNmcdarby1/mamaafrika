@@ -134,9 +134,41 @@ h1,h2,h3,h4{{margin: o;
 }
 /*---------------------------------------------------hover*/
 
+/*---------------------------------------------------nav bar*/
+.nav{
+    margin:0;
+}
 
+#nav{
+    margin: 0;
+}
 
+#nav lI{
+    font-size: 14px;
+    padding: 0;
+}
 
+.title{
+    font-family: "Roboto",sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: rgba(247, 158, 147, 0.966);
+}
+#fabric:hover{
+     background-color: #d1c5cc;
+}
+
+.list-inline-item:not(:last-child){
+    margin: 0;
+}
+.menucontainer{
+    font-size: 0;
+}
+.image-1{
+    max-block-size: 30%
+}
 
 /*----------------------------------------------------footer*/
 footer {
