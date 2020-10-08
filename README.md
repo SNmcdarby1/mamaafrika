@@ -41,3 +41,23 @@
     - checking our performance
     - Getting feedback information from our users
     - Displaying modern images in our pages that will capture different demographics
+
+- Description
+
+
+- User story
+- UX
+- Features
+- Technology used
+- Testing
+- Learning references
+- Difficulties encountered and ways to resolve them
+- Coding platform
+- Code validity
+- Troubleshooting
+- Known bugs
+- Contact information for programmers
+- Deployment
+- Creditors
+- Acknowledgements 
+- Key supporters 
