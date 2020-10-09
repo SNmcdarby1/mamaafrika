@@ -49,6 +49,11 @@
 - UX
 - Features
 - Technology used
+-------------------
+ - [picresize](https://picresize.com/)
+
+
+
 - Testing
 - Learning references
 - Difficulties encountered and ways to resolve them

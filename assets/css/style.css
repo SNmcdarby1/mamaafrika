@@ -13,6 +13,18 @@
  /*----------------------------------------------------jumbottron*/
 
 
+
+/*------------------------------------------------------image*/
+img{
+   width: 20%;
+    height: 20%;
+  
+}
+.media:hover{
+    box-shadow: rgb(226, 83, 83)ff
+}
+
+
 /*----------------------------------------------------foot*/
 .tooltip-test{
     padding-bottom: 12px;
@@ -101,13 +113,24 @@ h1,h2,h3,h4{{margin: o;
     font-weight: 800;
     letter-spacing: 2px;
 }
+.flex-container{
+    background-color: greenyellow;
+    color: white;
+    margin:10px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 30px;
+}
+.button{
+    background-color: rgb(227, 235, 215);
+    color: white;
+    margin:10px;
+    line-height: 25px;
+    font-size: 30px;
+}
+/*----------------------------------------------------*/
 
-
-/*----------------------------------------------------form*/
-
-
-
-
+}
 /*----------------------------------------------------images*/
 .mama{
     margin-right: 1rem;
@@ -188,32 +211,10 @@ footer {
     min-height: 120px;
     margin: 0;}
 }/*-----------------------------------------video*/
-.video, .images,
-      div {
+.video{
         width:  100px;
-        height: 100px;
-        margin: 10px;
-      
-        left: 300px;
-        top: 200px;
-        right: 300px;
-        bottom:  100px;
-      }
-      .one {
-        
-        background-color: rgb(122, 77, 77);
-      }      
-
-      .two {
-        background-color: #919c6d;
-      }      
-
-      .three {
-        background-color:  rgb(111, 245, 245);
-      }    
-
-    </style>
-
+        height: auto;
+    
 /*-------------------------------------------------------social*/
 .social-links {
     padding-bottom: 15px;
