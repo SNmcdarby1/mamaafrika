@@ -67,7 +67,9 @@ h1,h2,h3,h4{{margin: o;
 #jumbotron:hover{
      background-color: #d1c5cc;
 }
-
+body{
+    background-color: rgb(88, 105, 105)
+}
 .list-inline-item:not(:last-child){
     margin: 0;
 }
@@ -128,7 +130,13 @@ h1,h2,h3,h4{{margin: o;
     line-height: 25px;
     font-size: 30px;
 }
-/*----------------------------------------------------*/
+/*----------------------------------------------------media*/
+@include .media-breakpoint-up(sm){
+        display: inline; ! important
+    }
+    @include .media-breakpoint-down(md){
+        display: block;
+    }
 
 }
 /*----------------------------------------------------images*/
@@ -155,15 +163,29 @@ h1,h2,h3,h4{{margin: o;
     -webkit-transition: all .5s ease-in-out;
 }
 
-#wallart{
-    margin-right: 1rem;
-    background-position:  left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+image{
+    margin-right: 1rem !important;
+    background-position:  left !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    min-height: 360px ! important;
+    transition: all .5s ease-in-out !important;
+    -moz-transition: all .5s ease-in-out !important;
+    -webkit-transition: all .5s ease-in-out !important;
+}
+.modal, .modal-content {
+    image{
+    color: orange !important;
+    margin-right: 1rem !important;
+    background-position:  left !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    min-height: 360px ! important;
+    transition: all .5s ease-in-out !important;
+    -moz-transition: all .5s ease-in-out !important;
+    -webkit-transition: all .5s ease-in-out !important;
+}
+
 }
 }
 /*---------------------------------------------------hover*/
@@ -206,7 +228,7 @@ h1,h2,h3,h4{{margin: o;
 
 /*----------------------------------------------------footer*/
 footer {
-    background-color: #215627
+    background-color: #afe9b5
     color: #0ee7cab0;
     min-height: 120px;
     margin: 0;}
@@ -217,7 +239,7 @@ footer {
     
 /*-------------------------------------------------------social*/
 .social-links {
-    padding-bottom: 15px;
+    padding-bottom: 15px !important;
 }
 .social-links li a i {
     width: 32px;
